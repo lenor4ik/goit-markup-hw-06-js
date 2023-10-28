@@ -56,14 +56,14 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="menu-open-btn">
+        <button id="menu-opn-btn" type="button" class="menu-open-btn">
           <svg class="" width="24" height="24">
             <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
           </svg>
         </button>
       </div>
-      <div class="mob-menu">
-        <button type="button" class="menu-close-btn">
+      <div id="mob-menu" class="mob-menu">
+        <button id="menu-cls-btn" type="button" class="menu-close-btn">
           <svg class="" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -712,19 +712,19 @@
                 placeholder="E-mail"
               />
             </label>
-            <button class="subscribe-btn" type="submit">
+            <div id="subscribe-btn" class="subscribe-btn" type="submit">
               Subscribe
               <svg class="footer-icon-soc" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame"></use>
               </svg>
-            </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
-    <div class="backdrop">
-      <div class="modal">
-        <button class="modal-btn" type="button">
+    <div id="backdrop" class="backdrop">
+      <div id="modal" class="modal">
+        <button id="modal-cls-btn" class="modal-btn" type="button">
           <svg class="modal-icon-soc" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -798,5 +798,6 @@
         </form>
       </div>
     </div>
+    <script src="button.js"></script>
   </body>
 </html>
